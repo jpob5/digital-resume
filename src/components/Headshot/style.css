@@ -1,0 +1,12 @@
+
+.headshot {
+    max-width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid var(--color-02);
+    box-shadow: -6px -2px 0 0px #fff, 4px 4px 0 0px #fff;
+}
+.headshot img {
+    display: block;
+    width: 100%;
+}

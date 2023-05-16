@@ -1,0 +1,44 @@
+nav {
+    position: fixed;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 1rem 4rem;
+    z-index: 10;
+}
+nav .flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+nav p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+nav ul li {
+    display: block;
+    margin-right: 1rem;
+}
+nav ul li:last-of-type {
+    margin-right: 0;
+}
+nav ul li a {
+    font-size: 1.25rem;
+    color: var(--black);
+    text-decoration: none;
+    transition: 0.3s color;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: var(--color-02);
+}

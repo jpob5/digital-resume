@@ -1,0 +1,12 @@
+.experience {
+    /* background-color: var(--color-02); */
+    background: linear-gradient(var(--color-02) 0%, #fff 200%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: var(--black);
+    padding: 0 2rem;
+}
